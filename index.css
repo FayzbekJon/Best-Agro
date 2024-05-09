@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease-in-out;
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: azure;
+}
+.cont1{
+    background-color: rgba(255, 255, 255, 0.288);
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cont2{
+    display: none;
+}
+.contA a{
+    font-size: 20px;
+    padding: 20px;
+}
+.a2:hover{
+    color: red;
+    font-size: 21px;
+    box-shadow: black 5px 5px 10px;
+}
+.logo{
+    font-size: 40px;
+}
+.logo:hover{
+    color: red;
+    box-shadow: black 5px 5px 5px 5px;
+}
+.opencont{
+    display: none;
+    font-size:30px;
+    cursor:pointer;
+}
+.closecont{
+    display: none;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: url('https://i.ibb.co/5F5H2S2/background.jpg');
+    background-size: cover;
+    -webkit-animation: background-animation 5s linear infinite;
+    animation: background-animation 5s linear infinite;
+  }
+  
+  @keyframes background-animation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  
+
+  .head-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.cards{
+    background-color: rgba(9, 252, 9, 0.888);
+    width: 400px;
+    padding: 2rem;
+    max-height: 700px;
+    border-radius: 20px;
+}
+.products{
+    background-color: rgba(9, 252, 9, 0.888);
+    padding-top: 2rem;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.products:hover{
+    color: rgb(255, 255, 249);
+}
+.cards img{
+    max-width: 100%;
+}
+.cards p{
+    text-align: left;
+    padding-top: 10px;
+}
+
+
+
+
+
+.head-clients{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.clients{
+    background-color: rgba(37, 235, 241, 0.888);
+    width: 400px;
+    padding: 2rem;
+    max-height: 700px;
+    border-radius: 20px;
+}
+.text-clients{
+    background-color: rgba(37, 235, 241, 0.888);
+    padding-top: 2rem;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-clients:hover{
+    color: rgb(255, 255, 249);
+}
+.clients img{
+    max-width: 100%;
+}
+.clients p{
+    text-align: left;
+    padding-top: 10px;
+}
+  
+
+
+
+
+.head-sepgichs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.sepgich{
+    background-color: rgba(216, 252, 59, 0.888);
+    width: 400px;
+    padding: 2rem;
+    max-height: 700px;
+    border-radius: 20px;
+}
+.text-sepgich{
+    background-color: rgba(216, 252, 59, 0.888);
+    padding-top: 2rem;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-sepgich:hover{
+    color: rgb(255, 255, 249);
+}
+.sepgich img{
+    max-width: 100%;
+}
+.sepgich p{
+    text-align: left;
+    padding-top: 10px;
+}
+.head-contact{
+    background-color: rgb(72, 72, 243);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.61);
+    max-width: 400px;
+    padding: 1rem;
+    margin-inline: auto;
+    height: auto;
+    border-radius: 20px;
+}
+.contact input, textarea{
+    padding: 1rem;
+    margin: 1rem;
+}
+.contact button{
+    width: 200px;
+    height: auto;
+    margin-inline: auto;
+    padding: 1rem;
+    color: rgb(72, 72, 243);
+    background: transparent;
+    border-radius: 10px;
+    border-color: turquoise;
+    font-size: 20px;
+}
+.text-contact{
+    font-size: 30px;
+    color: white;
+    margin: 1rem;
+}
+.head-contact p{
+    margin: 1rem;
+}
+.tg{
+    position: fixed;
+    top: 70%;
+    right: 1%;
+    font-size: 45px;
+}
+@media  (max-width: 640px) {
+    .logo{
+        font-size: 25px;
+    }
+    .products{
+        font-size: 22px;
+    }
+    .text-clients{
+        font-size: 22px;
+    }
+    .text-sepgich{
+        font-size: 22px;
+    }
+    .text-contact{
+        font-size: 26px;
+    }
+    .contA{
+        display: none;
+    }
+    .cont2{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.863);
+        height: auto;
+        width: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-bottom-left-radius: 40px;
+    }
+    .conta{
+        padding-top: 50%;
+        padding-bottom: 50%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .conta a{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .opencont{
+        display: block;
+        font-size: 25px;
+        padding: 7px 17px;
+    }
+    .opencont:hover{
+        box-shadow: rgb(0, 0, 0) 5px 5px 10px 5px;
+    }
+    .closecont{
+        display: block;
+        color: white;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        font-size:40px;
+        cursor:pointer;
+    }
+    .closecont:hover{
+        color: rgba(9, 252, 9)
+    }
+    .a1:hover{
+        color: rgba(9, 252, 9);
+        font-size: 20.8px;
+        box-shadow: rgb(255, 255, 255) 5px 5px 10px;
+    }
+
+}
